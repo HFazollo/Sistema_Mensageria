@@ -28,7 +28,7 @@ Dependências de cada máquina virtual (detalhadas abaixo)
 - A comunicação é feita através de RabbitMQ, que atua como intermediário na troca de mensagens entre as VMs.
 
 ## Referências
-[RabbitMQ][https://www.rabbitmq.com/]
-[Docker][https://www.docker.com/]
-[Node.js][https://nodejs.org/pt]
-[Python Pika][https://pika.readthedocs.io/en/stable/]
+[RabbitMQ](https://www.rabbitmq.com/)
+[Docker](https://www.docker.com/)
+[Node.js](https://nodejs.org/pt)
+[Python Pika](https://pika.readthedocs.io/en/stable/)

@@ -5,22 +5,22 @@ Trabalho final da disciplina de Sistemas Distribuídos, implementando um serviç
 Este projeto simula a comunicação entre duas máquinas virtuais (VMs) por meio de filas de mensagens, utilizando o RabbitMQ como serviço de mensageria. A máquina virtual VM1 age como um Producer, enviando mensagens que são recebidas pela máquina virtual VM2, que atua como Consumer. As mensagens são transmitidas através de diferentes exchanges (direct, fanout, topic), possibilitando vários tipos de roteamento de mensagens.
 
 ## Tecnologias Utilizadas
-RabbitMQ: Broker de mensagens usado para comunicação entre os serviços.
-Docker: Contêineres utilizados para rodar o RabbitMQ.
-Python: Linguagem usada no Consumer.
-Node.js: Linguagem usada no Producer.
-Pika: Biblioteca Python para integrar o RabbitMQ com o Consumer.
-Express: Framework web usado no Producer com Node.js.
-PyQt: Framework para criar a interface gráfica no Consumer.
+- RabbitMQ: Broker de mensagens usado para comunicação entre os serviços.
+- Docker: Contêineres utilizados para rodar o RabbitMQ.
+- Python: Linguagem usada no Consumer.
+- Node.js: Linguagem usada no Producer.
+- Pika: Biblioteca Python para integrar o RabbitMQ com o Consumer.
+- Express: Framework web usado no Producer com Node.js.
+- PyQt: Framework para criar a interface gráfica no Consumer.
 
 ## Pré-requisitos
 Certifique-se de ter os seguintes componentes instalados no ambiente de desenvolvimento:
 
-Docker e Docker Compose
-Node.js (para o Producer)
-Python 3.x e pip (para o Consumer)
-RabbitMQ (executando em contêiner Docker)
-Dependências de cada máquina virtual (detalhadas abaixo)
+- Docker e Docker Compose
+- Node.js (para o Producer)
+- Python 3.x e pip (para o Consumer)
+- RabbitMQ (executando em contêiner Docker)
+- Dependências de cada máquina virtual (detalhadas abaixo)
 
 ## Arquitetura do Sistema
 - Producer (VM1 - principal.js): Envia mensagens para o RabbitMQ através de exchanges e filas, utilizando diferentes padrões de roteamento (direct, fanout, topic).

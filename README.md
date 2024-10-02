@@ -29,6 +29,9 @@ Dependências de cada máquina virtual (detalhadas abaixo)
 
 ## Referências
 [RabbitMQ](https://www.rabbitmq.com/)
+
 [Docker](https://www.docker.com/)
+
 [Node.js](https://nodejs.org/pt)
+
 [Python Pika](https://pika.readthedocs.io/en/stable/)
